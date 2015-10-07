@@ -1,21 +1,25 @@
+* {
+	font-family: Verdana;
+}
+
 #abs-div-1 {
 	position: absolute;
-	width: 300px;
+	width: 600px;
 	height: 150px;
 	background-color: green;
 	color: white;
 
-	top: 150px;
-	left: 150px;
+	top: 200px;
+	left: 200px;
 }
 
 #abs-div-2 {
 	position: absolute;
-	width: 300px;
+	width: 600px;
 	height: 150px;
 	background-color: orange;
 	color: white;
 
-	top: 5px;
-	left: 5px;
+	top: 100px;
+	left: 100px;
 }
