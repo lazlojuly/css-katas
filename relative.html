@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Katas</title>
+	<meta charset="utf-8">
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+	<section>
+		<header>
+			<h1>position: relative;</h1>
+		</header>
+	</section>
+
+	<div id="description">
+		<ul>
+			<li>* The element is positioned relative to its first positioned (not static) ancestor element's top left corner (sometimes window if no other parent found)</li>
+			<li>* Completely removed from the normal document flow. It’s as though the display property of the element was set to none</li>
+			<li>* Absolutely positioned boxes can have margins, they do not collapse with any other margins.</li>
+		</ul>
+	</div>
+
+	<div id="relative-examples">
+		<div id="rel-sibling-1">
+			REL-SIBLING
+		</div>
+		<div id="rel-div-1">
+			RELATIVE DIV-1
+			<p>(relative t:400 l:400 to parent (non-static) element:window)</p>
+			<div id="rel-div-2">
+				RELATIVE DIV-2
+				<p>(relative t:100 l:100 to parent (non-static) element:relative-div-1)</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
