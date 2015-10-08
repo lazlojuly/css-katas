@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Katas</title>
+	<meta charset="utf-8">
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="fixed.css">
+</head>
+
+<body>
+
+	<section>
+		<header>
+			<h1>position: fixed;</h1>
+		</header>
+	</section>
+
+	<div id="description">
+		<ul>
+			<li>Specified position (top-right-bottom-left) relative to the screen's viewport</li>
+			<li>Does not move when scrolled.</li>
+			<li>Ignores parents</li>
+		</ul>
+	</div>
+
+	<div id="normal-static-div">
+		[normal static element]
+		<p>width: 300px</p>
+		<p>height: 300px</p>
+	</div>
+	<div id="fixed-element-1">
+		[fixed element-1]
+		<p>width: 600px</p>
+		<p>height: 200px</p>
+		<p>(top:300px left:300px to the screen's viewport)</p>
+		<p>LOOK: this element stays where it is during page scroll!</p>
+	</div>
+
+	<div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dignissim quis risus in volutpat. Duis lobortis massa ac facilisis auctor. Vestibulum elit mi, tempor a dui vitae, lacinia eleifend libero. Proin sit amet euismod purus. Suspendisse luctus augue lacus, at tempus felis sollicitudin sit amet. Aenean justo enim, congue imperdiet cursus non, ornare vitae nibh. Phasellus condimentum id lacus non viverra. Fusce dictum porttitor ipsum id accumsan.
+
+Maecenas sed rhoncus elit. Sed a cursus nisi. Nam pharetra, tellus sed placerat tempus, massa felis volutpat ipsum, quis imperdiet tellus ipsum quis ante. In hac habitasse platea dictumst. Ut commodo rhoncus risus, a accumsan diam eleifend accumsan. Mauris eu placerat tellus, vel elementum augue. Curabitur lobortis dapibus tincidunt. Morbi ut lorem eu est semper maximus. Vivamus cursus ligula mi, at aliquet tortor auctor ac.
+
+Integer non odio eget libero sagittis maximus nec tristique augue. Nunc non blandit nisi. Morbi blandit dolor ut hendrerit tempus. Nulla venenatis mauris eu leo porttitor, cursus gravida sem varius. Curabitur ipsum purus, dignissim et ex laoreet, tristique ultricies magna. Phasellus semper dui gravida felis consequat, quis viverra tortor euismod. Sed vitae blandit massa. Ut porta neque ante, eu sagittis massa euismod id. Donec lobortis erat nulla, vel rutrum velit efficitur id. Phasellus vitae diam tincidunt, feugiat tellus vel, fermentum tortor. Duis in nisi consectetur, elementum eros mattis, aliquet risus. Vivamus erat nulla, porta et sem id, dictum tincidunt purus.
+
+Sed sit amet risus volutpat, porttitor velit ut, lobortis metus. Duis viverra, tortor et blandit auctor, odio odio egestas odio, nec egestas eros sem non mi. In vitae sollicitudin dolor. Praesent sit amet tellus ac diam porttitor luctus sed consectetur dui. Nullam iaculis iaculis mi. Sed non condimentum dolor. Praesent felis ex, convallis ut pharetra non, vulputate a leo. Praesent diam nulla, posuere non viverra vitae, scelerisque a metus. Maecenas bibendum vel nulla ac blandit. Etiam ac justo eu sapien malesuada varius. Phasellus aliquam in libero sit amet ultrices. Pellentesque vel viverra diam. Curabitur feugiat consequat orci, a aliquam velit.
+
+Vivamus dui risus, euismod sit amet tortor nec, commodo tincidunt nulla. Mauris placerat varius mi, vitae gravida eros pretium sit amet. Donec sed neque mi. Proin ultrices leo in arcu malesuada, vitae finibus lectus mattis. Praesent scelerisque vestibulum purus, id vulputate risus facilisis porta. Pellentesque fringilla at nulla vitae dapibus. Duis tristique vestibulum nulla, a congue sem. Maecenas porta convallis elementum. Sed ut elit nec orci auctor eleifend.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dignissim quis risus in volutpat. Duis lobortis massa ac facilisis auctor. Vestibulum elit mi, tempor a dui vitae, lacinia eleifend libero. Proin sit amet euismod purus. Suspendisse luctus augue lacus, at tempus felis sollicitudin sit amet. Aenean justo enim, congue imperdiet cursus non, ornare vitae nibh. Phasellus condimentum id lacus non viverra. Fusce dictum porttitor ipsum id accumsan.
+
+Maecenas sed rhoncus elit. Sed a cursus nisi. Nam pharetra, tellus sed placerat tempus, massa felis volutpat ipsum, quis imperdiet tellus ipsum quis ante. In hac habitasse platea dictumst. Ut commodo rhoncus risus, a accumsan diam eleifend accumsan. Mauris eu placerat tellus, vel elementum augue. Curabitur lobortis dapibus tincidunt. Morbi ut lorem eu est semper maximus. Vivamus cursus ligula mi, at aliquet tortor auctor ac.
+
+Integer non odio eget libero sagittis maximus nec tristique augue. Nunc non blandit nisi. Morbi blandit dolor ut hendrerit tempus. Nulla venenatis mauris eu leo porttitor, cursus gravida sem varius. Curabitur ipsum purus, dignissim et ex laoreet, tristique ultricies magna. Phasellus semper dui gravida felis consequat, quis viverra tortor euismod. Sed vitae blandit massa. Ut porta neque ante, eu sagittis massa euismod id. Donec lobortis erat nulla, vel rutrum velit efficitur id. Phasellus vitae diam tincidunt, feugiat tellus vel, fermentum tortor. Duis in nisi consectetur, elementum eros mattis, aliquet risus. Vivamus erat nulla, porta et sem id, dictum tincidunt purus.
+
+Sed sit amet risus volutpat, porttitor velit ut, lobortis metus. Duis viverra, tortor et blandit auctor, odio odio egestas odio, nec egestas eros sem non mi. In vitae sollicitudin dolor. Praesent sit amet tellus ac diam porttitor luctus sed consectetur dui. Nullam iaculis iaculis mi. Sed non condimentum dolor. Praesent felis ex, convallis ut pharetra non, vulputate a leo. Praesent diam nulla, posuere non viverra vitae, scelerisque a metus. Maecenas bibendum vel nulla ac blandit. Etiam ac justo eu sapien malesuada varius. Phasellus aliquam in libero sit amet ultrices. Pellentesque vel viverra diam. Curabitur feugiat consequat orci, a aliquam velit.
+
+Vivamus dui risus, euismod sit amet tortor nec, commodo tincidunt nulla. Mauris placerat varius mi, vitae gravida eros pretium sit amet. Donec sed neque mi. Proin ultrices leo in arcu malesuada, vitae finibus lectus mattis. Praesent scelerisque vestibulum purus, id vulputate risus facilisis porta. Pellentesque fringilla at nulla vitae dapibus. Duis tristique vestibulum nulla, a congue sem. Maecenas porta convallis elementum. Sed ut elit nec orci auctor eleifend.
+
+</p>
+	</div>
+
+
+</body>
+</html>
