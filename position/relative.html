@@ -22,9 +22,10 @@
 
 	<div id="description">
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li>Element is simply shifted from where it would normally sit</li>
+			<li>Elements around a relatively positioned element act as though that relative-shift didn’t exist.</li>
+			<li>Allows elements to easily overlap each other</li>
+			<li>Like adding a margin but only with effect of positioned element</li>
 		</ul>
 	</div>
 
@@ -33,24 +34,33 @@
 		<p>width: 300px</p>
 		<p>height: 300px</p>
 	</div>
+
 	<div id="relative-element-1">
 		[relative element]
 		<p>width: 600px</p>
 		<p>height: 150px</p>
-		<p>...</p>
+		<p>(top:25px left:25px to it's normal position)</p>
 	</div>
 
-	<div id="relative-element-2">
-		[relative element 2]
+	<div id="static-element-2">
+		<br>
+		<br>
+		[static element 2]
 		<p>width: 800px</p>
 		<p>height: 300px</p>
-		<p></p>
+		<p>(position: static;)</p>
+		<p><i>
+			Please note: This element is sitting in it's normal position.
+			The previous (orange) element is positioned top:25px hence
+			the overlap.
+		</i></p>
 
 		<div id="relative-element-3">
 			[relative element 3]
 			<p>width: 400px</p>
-			<p>height: 150px</p>
-			<p></p>
+			<p>height: 250px</p>
+			<p>(top:25px left:25px to it's normal position)</p>
+			<p><i>Please note this element's parent element is [static-element-2]</i></p>
 		</div>
 	</div>
 
