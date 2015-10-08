@@ -1,0 +1,22 @@
+div {
+	font-family: Verdana;
+	color: grey;
+}
+
+#normal-static-div {
+	width: 300px;
+	height: 300px;
+	background-color: #779ECB;
+	color: white;
+}
+
+#z-index-element-1 {
+	position: fixed;
+	text-align: right;
+	top: 300px;
+	left: 150px;
+	width: 600px;
+	height: 200px;
+	z-index: -1;
+	background-color: #FFE4CD; /* Lumber */
+}
