@@ -9,7 +9,7 @@
 	<![endif]-->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="relative.css">
 </head>
 
 <body>
@@ -22,23 +22,35 @@
 
 	<div id="description">
 		<ul>
-			<li>* The element is positioned relative to its first positioned (not static) ancestor element's top left corner (sometimes window if no other parent found)</li>
-			<li>* Completely removed from the normal document flow. It’s as though the display property of the element was set to none</li>
-			<li>* Absolutely positioned boxes can have margins, they do not collapse with any other margins.</li>
+			<li></li>
+			<li></li>
+			<li></li>
 		</ul>
 	</div>
 
-	<div id="relative-examples">
-		<div id="rel-sibling-1">
-			REL-SIBLING
-		</div>
-		<div id="rel-div-1">
-			RELATIVE DIV-1
-			<p>(relative t:400 l:400 to parent (non-static) element:window)</p>
-			<div id="rel-div-2">
-				RELATIVE DIV-2
-				<p>(relative t:100 l:100 to parent (non-static) element:relative-div-1)</p>
-			</div>
+	<div id="normal-static-div">
+		[normal static element]
+		<p>width: 300px</p>
+		<p>height: 300px</p>
+	</div>
+	<div id="relative-element-1">
+		[relative element]
+		<p>width: 600px</p>
+		<p>height: 150px</p>
+		<p>...</p>
+	</div>
+
+	<div id="relative-element-2">
+		[relative element 2]
+		<p>width: 800px</p>
+		<p>height: 300px</p>
+		<p></p>
+
+		<div id="relative-element-3">
+			[relative element 3]
+			<p>width: 400px</p>
+			<p>height: 150px</p>
+			<p></p>
 		</div>
 	</div>
 
