@@ -3,7 +3,7 @@
 Playground for CSS and for CSS only
 
 Demos so far:
-* CSS position property: http://lazlojuly.com/css-katas/position/index.html
+http://lazlojuly.github.io/css-katas/
 
 Sources:
 
